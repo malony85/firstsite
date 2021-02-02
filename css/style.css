@@ -1,0 +1,60 @@
+#banner{
+    float:right;
+    margin: -180px 130px 10px 10px;
+    border:red 2px solid;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+
+li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
+
+.menu {
+    margin: 30px 10px 10px 10px;
+}
+
+#leftmenu {
+    float:left;
+    margin: 10px 10px 10px 10px;
+}
+
+#rightmenu {
+    float:right;
+    
+}
+
+#main {
+ padding:5px 5px 5px 5px;   
+}
+
+#address{
+  margin:15px 15px 15px 15px;
+  padding:15px 15px 15px 15px;
+  font-size: 16px;
+  border:3px solid red;
+  border-radius: 15px;
+}
